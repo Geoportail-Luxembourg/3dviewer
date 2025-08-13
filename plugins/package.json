@@ -34,7 +34,8 @@
     "@vcmap/geofence": "^1.0.2",
     "@vcmap/panorama": "^1.0.0",
     "@vcmap/layer-settings": "^1.0.1",
-    "catalog": "github:tkohr/catalog.git#catalog"
+    "catalog": "github:tkohr/catalog.git#catalog",
+    "3dviewer-back2D": "github:AlitaBernachot/3dviewer-back2D.git#2d-back-button"
   },
   "optionalDependencies": {
     "@vcmap/guided-tour": "^1.0.6",
