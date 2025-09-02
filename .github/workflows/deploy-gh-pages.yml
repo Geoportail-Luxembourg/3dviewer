@@ -9,6 +9,8 @@ on:
     branches:
       - main
       - release-v6.1
+      - release-v6.2
+      - lux
 jobs:
   lux-deploy:
     runs-on: ubuntu-latest
