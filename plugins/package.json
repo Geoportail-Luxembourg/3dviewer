@@ -34,8 +34,8 @@
     "@vcmap/geofence": "^1.0.2",
     "@vcmap/panorama": "^1.0.0",
     "@vcmap/layer-settings": "^1.0.1",
-    "@tkohr/catalog": "^0.0.1",
-    "3dviewer-back2D": "github:AlitaBernachot/3dviewer-back2D.git#2d-back-button"
+    "@geoportallux/lux-3dviewer-themesync": "^0.0.2",
+    "@geoportallux/lux-3dviewer-plugin-back-to-2d-portal": "^1.0.0"
   },
   "optionalDependencies": {
     "@vcmap/guided-tour": "^1.0.6",
