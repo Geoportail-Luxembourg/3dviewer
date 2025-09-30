@@ -500,9 +500,8 @@
       "attributeKeys": ["BUILDINGID"]
     },
     {
-      "type": "IframeWmsFeatureInfoView",
-      "name": "featureInfo2d",
-      "sandbox": "allow-scripts allow-same-origin"
+      "type": "TableFeatureInfoView",
+      "name": "featureInfo2d"
     },
     {
       "type": "TableFeatureInfoView",
@@ -734,7 +733,7 @@
       "tabId": "lux2d",
       "pathToPrintPortal": "https://3dprint-test.geoportail.lu/commande",
       "tabIdPrint": "luxprint"
-},
+    },
     {
       "name": "@geoportallux/lux-3dviewer-plugin-create-link",
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-create-link/index.js",
