@@ -725,7 +725,8 @@
       "luxWmtsUrl": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts",
       "lux3dUrl": "https://acts3.geoportail.lu/3d-data/3d-tiles",
       "luxLegendUrl": "https://map.geoportail.lu/legends/get_html",
-      "luxDefaultBaselayer": "orthogr_2013_global"
+      "luxDefaultBaselayer": "orthogr_2013_global",
+      "luxGeonetworkUrl": "https://geocatalogue.geoportail.lu/geonetwork/srv"
     },
     {
       "name": "@geoportallux/lux-3dviewer-plugin-back-to-2d-portal",
