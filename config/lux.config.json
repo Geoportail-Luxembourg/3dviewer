@@ -28,6 +28,7 @@
       "name": "displayQuality",
       "value": {
         "startingQualityLevel": "high",
+        "startingMobileQualityLevel": "high",
         "low": {
           "sse": 4,
           "fxaa": false,
@@ -735,7 +736,7 @@
       "tabId": "lux2d",
       "pathToPrintPortal": "https://3dprint-test.geoportail.lu/commande",
       "tabIdPrint": "luxprint"
-},
+    },
     {
       "name": "@geoportallux/lux-3dviewer-plugin-create-link",
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-create-link/index.js",
