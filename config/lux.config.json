@@ -720,7 +720,7 @@
     {
       "name": "@geoportallux/lux-3dviewer-themesync",
       "entry": "plugins/@geoportallux/lux-3dviewer-themesync/index.js",
-      "luxThemesUrl": "https://migration.geoportail.lu/themes?limit=30&partitionlimit=5&interface=main&cache_version=0&background=background",
+      "luxThemesUrl": "https://map.geoportail.lu/themes?limit=30&partitionlimit=5&interface=main&cache_version=0&background=background",
       "luxI18nUrl": "https://map.geoportail.lu/static/0",
       "luxOwsUrl": "https://wms.geoportail.lu/public_map_layers/service",
       "luxWmtsUrl": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts",
@@ -732,15 +732,15 @@
     {
       "name": "@geoportallux/lux-3dviewer-plugin-back-to-2d-portal",
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-back-to-2d-portal/index.js",
-      "pathTo2dGeoportal": "https://geoportail-luxembourg.github.io/luxembourg-geoportail/main/",
+      "pathTo2dGeoportal": "https://map.geoportail.lu/",
       "tabId": "lux2d",
-      "pathToPrintPortal": "https://3dprint-test.geoportail.lu/commande",
+      "pathToPrintPortal": "https://3dprint.geoportail.lu/commande",
       "tabIdPrint": "luxprint"
     },
     {
       "name": "@geoportallux/lux-3dviewer-plugin-create-link",
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-create-link/index.js",
-      "pathToUrlShortenerApi": "https://migration.geoportail.lu/short/create"
+      "pathToUrlShortenerApi": "https://map.geoportail.lu/short/create"
     }
   ]
 }
