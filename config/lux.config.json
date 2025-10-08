@@ -725,7 +725,7 @@
       "luxOwsUrl": "https://wms.geoportail.lu/public_map_layers/service",
       "luxWmtsUrl": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts",
       "lux3dUrl": "https://acts3.geoportail.lu/3d-data/3d-tiles",
-      "luxLegendUrl": "https://map.geoportail.lu/legends/get_html",
+      "luxLegendUrl": "https://3d.geoportail.lu/legends/get_html",
       "luxDefaultBaselayer": "orthogr_2013_global",
       "luxGeonetworkUrl": "https://geocatalogue.geoportail.lu/geonetwork/srv"
     },
