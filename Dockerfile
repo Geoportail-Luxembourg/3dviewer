@@ -8,9 +8,9 @@ COPY ./build ./build/
 COPY package*.json ./
 RUN npm install
 COPY . .
-# builds the app into the dist/ directory
+# builds the app into the dist/ directory.
 RUN npm run build
-# adds the built plugins and configs to the dist/ directory
+# adds the built plugins and configs to the dist/ directory.
 RUN npm run build-preview 
 
 FROM nginx:1.28.0-alpine-slim
