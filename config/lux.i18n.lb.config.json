@@ -143,7 +143,6 @@
           "flight": {
             "general": "Fluch Astellungen",
             "name": "Numm (ID)",
-            "title": "Titel",
             "titlePlaceholder": "Titel vum Fluch",
             "interpolation": "Interpolatioun",
             "duration": "Total Fluchdauer",
@@ -402,6 +401,10 @@
           "edit": "Auswiel änneren"
         },
         "flight": {
+          "title": "Kamerafluch erstellen",
+          "titleTemporary": "Temporäre Kamerafluch erstellen",
+          "categoryTitle": "Kameraflüch",
+          "new": "Nei",
           "player": "Spiller",
           "playTooltip": "Dëse Fluch ofspillen",
           "pauseTooltip": "Dëse Fluch op aktueller Positioun pauséieren",
@@ -657,6 +660,132 @@
               },
               "hint": "Klickt op d'Kaart fir d'Positioun vum Rechteck ze setzen. Bewegt d'Maus fir méi ze inspectéieren."
             }
+          }
+        },
+        "multiView": {
+          "config": {
+            "title": "MultiView Konfiguratioun",
+            "activeOnStartup": "Säitenkaart beim Start aktivéieren",
+            "allowedSideMaps": "Erlaabte Säitenkarten",
+            "startingSideMap": "Säitenkaart déi beim Start gewise gëtt",
+            "placeholder": "Auswielen",
+            "obliqueCollectionName": "Numm vun der schréiger Bildsammlung"
+          },
+          "title": "Säitenkaart weisen",
+          "north": "Norden",
+          "east": "Osten",
+          "south": "Süden",
+          "west": "Westen",
+          "sync": "Usiichten synchroniséieren",
+          "switchMaps": "Usiichten wiesselen",
+          "obliqueMultiView": "Schréig Multi-Usiicht"
+        },
+        "swipeTool": {
+          "title": "Inhalt vergläichen",
+          "hideController": "Kontroll verstoppen",
+          "showController": "Kontroll weisen",
+          "treeTitle": "L {'|'} R",
+          "emptyTree": "Aktivéiert de Vergläichstool fir verfügbar Layeren ze weisen déi kënnen deelt ginn.",
+          "stateActionTitles": {
+            "inactiveLeft": "Layer op der lénker Säit weisen",
+            "inactiveRight": "Layer op der rietsser Säit weisen",
+            "activeLeft": "Layer op der lénker Säit verstoppen",
+            "activeRight": "Layer op der rietsser Säit verstoppen",
+            "indeterminateLeft": "All Layeren op der lénker Säit weisen",
+            "indeterminateRight": "All Layeren op der rietsser Säit weisen"
+          },
+          "swipeElementTitles": {
+            "left": "Lénks",
+            "right": "Riets"
+          },
+          "editor": {
+            "title": "Vergläichstool Editor",
+            "general": "Allgemeng Astellungen",
+            "showSwipeTree": "Vergläichstool Interface aktivéieren",
+            "showSwipeElement": "Vergläichselement weisen",
+            "splitPosition": "Ufanks Deelungspositioun",
+            "splitPositionInvalid": "Ongülteg Input: de Wäert muss tëschent 0 an 1 sinn",
+            "swipeElementTitles": "Vergläichselement Titelen",
+            "swipeLayer": {
+              "title": "Ufankszoustand fir Layeren definéieren",
+              "name": "Layer auswielen",
+              "add": "Ufankszoustand dobäisetzen",
+              "remove": "Ufankszoustand ewechhuelen",
+              "splitLeft": "Delung lénks ëmschalten",
+              "splitRight": "Delung riets ëmschalten"
+            }
+          }
+        },
+        "lineOfSight": {
+          "lineOfSight": "Sichtlinn erstellen",
+          "linesOfSight": "Sichtlinnen",
+          "create": "Sichtlinn erstellen",
+          "temporary": "Temporär Sichtlinn",
+          "viewpoint": "Ousiktspunkt",
+          "target": "Zil",
+          "new": "Nei",
+          "addToMyWorkspace": "Zu Mengem Aarbechtspace dobäisetzen",
+          "jumpToViewpoint": "Op de Ousiktspunkt sprangen",
+          "returnToViewpoint": "Zréck op de viregen Ousiktspunkt",
+          "cancel": "Ofbriechen",
+          "absolute": "Absolut",
+          "offset": "Offset",
+          "zoomTo": "Op d'Element zoomen",
+          "createHelp": "Klickt zwou mol op d'Kaart: Den éischte Klick setzt d'Origine (Ousiktspunkt), den zweete Klick definéiert d'Zilpositioun déi d'Ousiktsrichtung bestëmmt.",
+          "hasOffset": "Beobachter-Offset dobäisetzen",
+          "position": "Positioun",
+          "refresh": "Intersectioun nei berechnen"
+        },
+        "heightProfile": {
+          "toolbarTitle": "Héichteprofil erstellen",
+          "titleTemporary": "Héichteprofil",
+          "distance": "Distanz (m)",
+          "height": "Héicht (m)",
+          "resolutionError": "D'Resolutioun muss méi wéi 0 sinn",
+          "heightProfileCanceled": "D'Berechnung vum Héichteprofil gouf ofgebrach!",
+          "tooltip": {
+            "resolution": "D'Resolutioun definéiert d'Distanz tëschent de Sampling-Punkten vum Héichteprofil. Jee méi kleng d'Resolutioun, jee méi detailléiert de Profil."
+          },
+          "collection": {
+            "add": "Neien Profil berechnen"
+          },
+          "edit": "Geometrie änneren",
+          "title": "Héichteprofil",
+          "create": "Héichteprofil",
+          "diagram": "Berechnete Profiler: Diagramm",
+          "classificationType": { 
+            "DGM": "DTM", 
+            "DOM": "DSM" 
+          },
+          "resolution": "Resolutioun [m]",
+          "results": "Berechnung starten",
+          "pointsMultiple": "Numm",
+          "points": "Anker-Punkten",
+          "point": "Punkt",
+          "settings": "Astellungen",
+          "classification": "Referenz-Uewerflëch",
+          "calcResults": "Berechnete Profiler",
+          "resolutionProblem": "Net genuch Sampling-Punkten konnten generéiert ginn. Wielt eng méi héich Resolutioun oder eng méi laang Profillinn.",
+          "dialogText": "Den Héichteprofil gëtt berechent",
+          "graphAction": "Graphik weisen",
+          "measureLine": "Moosslinn",
+          "measurementWarning": "Eng Moosslinn kann nëmmen erstallt ginn wa net méi wéi eng Héichtlinn am Graphik gewisen gëtt.",
+          "editSessionWarning": "Spéider Ännerung vun der Geometrie läscht all virdru berechnete Profiler.",
+          "initialMessage": "Klickt op d'Kaart fir d'Linn vum ärem Profil ze definéieren. Duebel-klickt op eng Plaz fir är Linn ze enden.",
+          "tempTitle": "Temporären Héichteprofil",
+          "scaleFactor": "Skala-Faktor",
+          "scaleFactorTooltip": "De Skala-Faktor weist wéi vill d'Héichtwäerter skaléiert sinn am Verglach zu den horizontalen Distanzen an engem Profil.",
+          "measurement": {
+            "start": "Moossung am Graphik starten",
+            "clear": "Moossung am Graphik läschen"
+          },
+          "reset": "Zrécksetzen vun den Upassungen un de Graphik",
+          "nn": "Normal Null Modus ëmschalten",
+          "layerWarning": "Layer-Konfiguratioun geännert. Den Diagramm kann vum Kaart-Display ënnerscheeden.",
+          "parameterComponent": "Profil berechnen",
+          "config": {
+            "title": "Héichteprofil Konfiguratioun",
+            "decimalPlaces": "Zuel vun Dezimalstellen op Graphik"
           }
         }
       }
