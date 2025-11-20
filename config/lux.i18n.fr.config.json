@@ -143,7 +143,6 @@
           "flight": {
             "general": "Paramètres de vol",
             "name": "Nom (ID)",
-            "title": "Titre",
             "titlePlaceholder": "Titre du vol",
             "interpolation": "Interpolation",
             "duration": "Durée totale du vol",
@@ -402,6 +401,10 @@
           "edit": "Modifier la sélection"
         },
         "flight": {
+          "title": "Créer un vol de caméra",
+          "titleTemporary": "Créer un vol de caméra temporaire",
+          "categoryTitle": "Vols de caméra",
+          "new": "Nouveau",
           "player": "Lecteur",
           "playTooltip": "Lire ce vol",
           "pauseTooltip": "Mettre ce vol en pause à la position actuelle",
@@ -657,6 +660,132 @@
               },
               "hint": "Cliquez sur la carte pour définir la position du rectangle. Déplacez la souris pour inspecter plus loin."
             }
+          }
+        },
+        "multiView": {
+          "config": {
+            "title": "Configuration MultiView",
+            "activeOnStartup": "Activer la carte latérale au démarrage",
+            "allowedSideMaps": "Cartes latérales autorisées",
+            "startingSideMap": "Carte latérale affichée au démarrage",
+            "placeholder": "Sélectionner",
+            "obliqueCollectionName": "Nom de la collection d'imagerie oblique"
+          },
+          "title": "Afficher la carte latérale",
+          "north": "nord",
+          "east": "est",
+          "south": "sud",
+          "west": "ouest",
+          "sync": "Synchroniser les vues",
+          "switchMaps": "Échanger les vues",
+          "obliqueMultiView": "Vue multiple oblique"
+        },
+        "swipeTool": {
+          "title": "Comparer le contenu",
+          "hideController": "Masquer le contrôle",
+          "showController": "Afficher le contrôle",
+          "treeTitle": "G {'|'} D",
+          "emptyTree": "Activez l'outil de comparaison pour afficher les couches disponibles à diviser.",
+          "stateActionTitles": {
+            "inactiveLeft": "Afficher la couche côté gauche",
+            "inactiveRight": "Afficher la couche côté droit",
+            "activeLeft": "Masquer la couche côté gauche",
+            "activeRight": "Masquer la couche côté droit",
+            "indeterminateLeft": "Afficher toutes les couches côté gauche",
+            "indeterminateRight": "Afficher toutes les couches côté droit"
+          },
+          "swipeElementTitles": {
+            "left": "Gauche",
+            "right": "Droite"
+          },
+          "editor": {
+            "title": "Éditeur d'outil de comparaison",
+            "general": "Paramètres généraux",
+            "showSwipeTree": "Activer l'interface de l'outil de comparaison",
+            "showSwipeElement": "Afficher l'élément de comparaison",
+            "splitPosition": "Position initiale de division",
+            "splitPositionInvalid": "Entrée non valide : la valeur doit être comprise entre 0 et 1",
+            "swipeElementTitles": "Titres des éléments de comparaison",
+            "swipeLayer": {
+              "title": "Définir l'état initial des couches",
+              "name": "Sélectionner une couche",
+              "add": "Ajouter un état initial",
+              "remove": "Supprimer l'état initial",
+              "splitLeft": "Basculer la division à gauche",
+              "splitRight": "Basculer la division à droite"
+            }
+          }
+        },
+        "lineOfSight": {
+          "lineOfSight": "Créer une ligne de vue",
+          "linesOfSight": "Lignes de vue",
+          "create": "Créer une ligne de vue",
+          "temporary": "Ligne de vue temporaire",
+          "viewpoint": "Point de vue",
+          "target": "Cible",
+          "new": "Nouveau",
+          "addToMyWorkspace": "Ajouter à Mon Espace de Travail",
+          "jumpToViewpoint": "Aller au point de vue",
+          "returnToViewpoint": "Retour au point de vue précédent",
+          "cancel": "Annuler",
+          "absolute": "Absolu",
+          "offset": "Décalage",
+          "zoomTo": "Zoomer sur l'élément",
+          "createHelp": "Cliquez deux fois sur la carte : Le premier clic place l'origine (point de vue), le second clic définit la position cible qui détermine la direction de vue.",
+          "hasOffset": "Ajouter un décalage d'observateur",
+          "position": "Position",
+          "refresh": "Recalculer l'intersection"
+        },
+        "heightProfile": {
+          "toolbarTitle": "Créer un profil altimétrique",
+          "titleTemporary": "Profil altimétrique",
+          "distance": "Distance (m)",
+          "height": "Hauteur (m)",
+          "resolutionError": "La résolution doit être supérieure à 0",
+          "heightProfileCanceled": "Le calcul du profil altimétrique a été annulé !",
+          "tooltip": {
+            "resolution": "La résolution définit la distance entre les points d'échantillonnage du profil altimétrique. Plus la résolution est faible, plus le profil est détaillé."
+          },
+          "collection": {
+            "add": "Calculer un nouveau profil"
+          },
+          "edit": "Modifier la géométrie",
+          "title": "Profil altimétrique",
+          "create": "Profil altimétrique",
+          "diagram": "Profils calculés : Diagramme",
+          "classificationType": { 
+            "DGM": "MNT", 
+            "DOM": "MNS" 
+          },
+          "resolution": "Résolution [m]",
+          "results": "Démarrer le calcul",
+          "pointsMultiple": "Nom",
+          "points": "Points d'ancrage",
+          "point": "Point",
+          "settings": "Paramètres",
+          "classification": "Surface de référence",
+          "calcResults": "Profils calculés",
+          "resolutionProblem": "Pas assez de points d'échantillonnage ont pu être générés. Sélectionnez une résolution plus élevée ou une ligne de profil plus longue.",
+          "dialogText": "Le profil altimétrique est en cours de calcul",
+          "graphAction": "Afficher le graphique",
+          "measureLine": "Ligne de mesure",
+          "measurementWarning": "Une ligne de mesure ne peut être créée que si pas plus d'une ligne de hauteur est affichée dans le graphique.",
+          "editSessionWarning": "La modification ultérieure de la géométrie supprime tous les profils précédemment calculés.",
+          "initialMessage": "Cliquez sur la carte pour définir la ligne de votre profil. Double-cliquez sur un emplacement pour terminer votre ligne.",
+          "tempTitle": "Profil altimétrique temporaire",
+          "scaleFactor": "Facteur d'échelle",
+          "scaleFactorTooltip": "Le facteur d'échelle indique de combien les valeurs d'altitude sont mises à l'échelle par rapport aux distances horizontales dans un profil.",
+          "measurement": {
+            "start": "Commencer la mesure dans le graphique",
+            "clear": "Supprimer la mesure dans le graphique"
+          },
+          "reset": "Réinitialisation des ajustements du graphique",
+          "nn": "Basculer le mode Normal Null",
+          "layerWarning": "Configuration de couche modifiée. Le diagramme peut différer de l'affichage de la carte.",
+          "parameterComponent": "Calculer le profil",
+          "config": {
+            "title": "Configuration du profil altimétrique",
+            "decimalPlaces": "Nombre de décimales sur le graphique"
           }
         }
       }

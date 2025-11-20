@@ -3,7 +3,26 @@
   "i18n": [
     {
       "name": "DE base",
-      "de": {}
+      "de": {
+        "multiView": {
+          "config": {
+            "title": "MultiView Konfiguration",
+            "activeOnStartup": "Nebenkarte beim Start aktivieren",
+            "allowedSideMaps": "Erlaubte Nebenkarten",
+            "startingSideMap": "Nebenkarte, die beim Start angezeigt wird",
+            "placeholder": "Auswählen",
+            "obliqueCollectionName": "Name der Schrägluftbildebene"
+          },
+          "title": "Nebenkarte anzeigen",
+          "north": "Norden",
+          "east": "Osten",
+          "south": "Süden",
+          "west": "Westen",
+          "sync": "Ansichten synchronisieren",
+          "switchMaps": "Ansichten vertauschen",
+          "obliqueMultiView": "Schrägluftbild Mehrfachansicht"
+        }
+      }
     }
   ]
 }
