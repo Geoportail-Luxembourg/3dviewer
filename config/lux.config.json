@@ -722,19 +722,19 @@
       "entry": "plugins/@geoportallux/lux-3dviewer-themesync/index.js",
       "luxThemesUrl": "https://map.geoportail.lu/themes?limit=30&partitionlimit=5&interface=main&background=background",
       "luxI18nUrl": "https://map.geoportail.lu/static/0",
-      "luxOwsUrl": "https://map.geoportail.lu/public_map_layers/service",
-      "luxWmtsUrl": "https://map.geoportail.lu/mapproxy_4_v3/wmts",
+      "luxOwsUrl": "https://wms.geoportail.lu/public_map_layers/service",
+      "luxWmtsUrl": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts",
       "lux3dUrl": "https://acts3.geoportail.lu/3d-data/3d-tiles",
       "luxLegendUrl": "https://3d.geoportail.lu/legends/get_html",
       "luxDefaultBaselayer": "orthogr_2013_global",
       "luxGeonetworkUrl": "https://geocatalogue.geoportail.lu/geonetwork/srv",
-      "credentials": "same-origin"
+      "credentials": "include"
     },
     {
       "name": "@geoportallux/lux-3dviewer-plugin-auth",
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-auth/index.js",
       "baseUrl": "https://map.geoportail.lu",
-      "credentials": "same-origin"
+      "credentials": "include"
     },
     {
       "name": "@geoportallux/lux-3dviewer-plugin-back-to-2d-portal",
