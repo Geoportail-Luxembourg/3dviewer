@@ -733,7 +733,7 @@
     {
       "name": "@geoportallux/lux-3dviewer-plugin-auth",
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-auth/index.js",
-      "baseUrl": "https://map.geoportail.lu",
+      "baseUrl": "https://migration.geoportail.lu",
       "credentials": "include"
     },
     {
