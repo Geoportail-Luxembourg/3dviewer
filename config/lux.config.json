@@ -720,7 +720,7 @@
     {
       "name": "@geoportallux/lux-3dviewer-themesync",
       "entry": "plugins/@geoportallux/lux-3dviewer-themesync/index.js",
-      "luxThemesUrl": "https://migration.geoportail.lu/themes?limit=30&partitionlimit=5&interface=main&background=background",
+      "luxThemesUrl": "https://map.geoportail.lu/themes?limit=30&partitionlimit=5&interface=main&background=background",
       "luxI18nUrl": "https://map.geoportail.lu/static/0",
       "luxOwsUrl": "https://wms.geoportail.lu/public_map_layers/service",
       "luxWmtsUrl": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts",
@@ -733,7 +733,7 @@
     {
       "name": "@geoportallux/lux-3dviewer-plugin-auth",
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-auth/index.js",
-      "baseUrl": "https://migration.geoportail.lu",
+      "baseUrl": "https://map.geoportail.lu",
       "credentials": "include"
     },
     {
