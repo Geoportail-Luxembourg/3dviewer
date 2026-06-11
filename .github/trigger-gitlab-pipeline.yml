@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - lux
-      - lux-lux-v6.3
+      - lux-v6.3
       - github-actions
       - GSLUX-809-dev
   workflow_dispatch:
