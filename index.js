@@ -206,6 +206,8 @@ export { default as AddressBalloonComponent } from './src/featureInfo/AddressBal
 export { default as IframeComponent } from './src/featureInfo/IframeComponent.vue';
 export { default as IframeFeatureInfoView } from './src/featureInfo/iframeFeatureInfoView.js';
 export { default as IframeWmsFeatureInfoView } from './src/featureInfo/iframeWmsFeatureInfoView.js';
+export { default as HtmlComponent } from './src/featureInfo/HtmlComponent.vue';
+export { default as HtmlFeatureInfoView } from './src/featureInfo/htmlFeatureInfoView.js';
 export { default as TableFeatureInfoView } from './src/featureInfo/tableFeatureInfoView.js';
 export { default as MarkdownFeatureInfoView } from './src/featureInfo/markdownFeatureInfoView.js';
 export { default as MarkdownBalloonFeatureInfoView } from './src/featureInfo/markdownBalloonFeatureInfoView.js';

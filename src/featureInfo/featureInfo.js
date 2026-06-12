@@ -43,6 +43,7 @@ import FeatureInfoInteraction from './featureInfoInteraction.js';
 import AbstractFeatureInfoView from './abstractFeatureInfoView.js';
 import TableFeatureInfoView from './tableFeatureInfoView.js';
 import IframeFeatureInfoView from './iframeFeatureInfoView.js';
+import HtmlFeatureInfoView from './htmlFeatureInfoView.js';
 import AddressBalloonFeatureInfoView from './addressBalloonFeatureInfoView.js';
 import BalloonFeatureInfoView from './balloonFeatureInfoView.js';
 import MarkdownFeatureInfoView from './markdownFeatureInfoView.js';
@@ -991,6 +992,10 @@ featureInfoClassRegistry.registerClass(
 featureInfoClassRegistry.registerClass(
   IframeWmsFeatureInfoView.className,
   IframeWmsFeatureInfoView,
+);
+featureInfoClassRegistry.registerClass(
+  HtmlFeatureInfoView.className,
+  HtmlFeatureInfoView,
 );
 featureInfoClassRegistry.registerClass(
   BalloonFeatureInfoView.className,
