@@ -646,6 +646,10 @@
   ],
   "plugins": [
     {
+      "name": "@geoportallux/lux-3dviewer-plugin-statesync",
+      "entry": "plugins/@geoportallux/lux-3dviewer-plugin-statesync/index.js"
+    },
+    {
       "name": "@vcmap/search-coordinate",
       "entry": "plugins/@vcmap/search-coordinate/index.js",
       "searchProjections": [
