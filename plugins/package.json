@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@geoportallux/lux-3dviewer-themesync": "1.5.2-dev",
-    "@geoportallux/lux-3dviewer-plugin-statesync": "1.0.0-dev",
+    "@geoportallux/lux-3dviewer-plugin-statesync": "1.0.0-alpha",
     "@geoportallux/lux-3dviewer-plugin-back-to-2d-portal": "^1.2.2",
     "@geoportallux/lux-3dviewer-plugin-create-link": "^1.0.0",
     "@geoportallux/lux-3dviewer-plugin-auth": "1.0.1",
