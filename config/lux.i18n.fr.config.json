@@ -504,7 +504,7 @@
           "days": "jours",
           "units": "unités"
         },
-        "drawing": {
+        "draw": {
           "create": {
             "Point": "Dessiner des points",
             "Polygon": "Dessiner des polygones",

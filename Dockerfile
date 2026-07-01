@@ -2,7 +2,7 @@ FROM node:20-alpine AS build
 
 WORKDIR /app
 COPY ./plugins/package*.json ./plugins/
-RUN cd plugins && npm install
+RUN cd plugins && npm ci --force
 
 COPY ./build ./build/
 COPY package*.json ./

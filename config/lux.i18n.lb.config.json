@@ -504,7 +504,7 @@
           "days": "Deeg",
           "units": "Eenheeten"
         },
-        "drawing": {
+        "draw": {
           "create": {
             "Point": "Punkten zeechnen",
             "Polygon": "Polygonen zeechnen",
