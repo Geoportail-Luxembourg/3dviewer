@@ -1,0 +1,44 @@
+{
+  "name": "Geoportal 3D Luxembourg",
+  "_id": "Geoportal 3D Luxembourg",
+  "description": "Geoportal 3D Luxembourg map.geoportail.lu",
+  "plugins": [
+    {
+      "name": "@vcmap-show-case/project-selector",
+      "entry": "plugins/@vcmap-show-case/project-selector/index.js",
+      "selected": "Geoportal 3D Luxembourg",
+      "selectedModules": [
+        "config/graphFeatureInfo.config.json",
+        "config/lux.theming.config.json",
+        "config/lux.i18n.fr.config.json",
+        "config/lux.i18n.lb.config.json",
+        "config/lux.i18n.en.config.json",
+        "config/lux.i18n.de.config.json"
+      ],
+      "projects": [
+        {
+          "name": "Geoportal 3D Luxembourg",
+          "description": "map.geoportail.lu",
+          "modules": [
+            "config/lux.config.json",
+            "config/lux.theming.config.json",
+            "config/lux.i18n.fr.config.json",
+            "config/lux.i18n.lb.config.json",
+            "config/lux.i18n.en.config.json",
+            "config/lux.i18n.de.config.json"
+          ]
+        }
+      ],
+      "modules": [
+        "config/graphFeatureInfo.config.json",
+        "config/lux.theming.config.json",
+        "config/clipping.config.json",
+        "config/cluster.config.json",
+        "config/lux.i18n.fr.config.json",
+        "config/lux.i18n.lb.config.json",
+        "config/lux.i18n.en.config.json",
+        "config/lux.i18n.de.config.json"
+      ]
+    }
+  ]
+}
