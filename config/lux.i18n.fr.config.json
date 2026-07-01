@@ -1,0 +1,795 @@
+{
+  "_id": "luxI18nFr",
+  "name": "FR translations",
+  "i18n": [
+    {
+      "name": "FR base",
+      "fr": {
+        "navbar": {
+          "maps": {
+            "CesiumMap": "Carte 3D",
+            "OpenlayersMap": "Carte 2D",
+            "ObliqueMap": "Carte en imagerie oblique"
+          },
+          "menu": {
+            "tooltip": "Menu"
+          },
+          "share": {
+            "tooltip": "Partager la vue actuelle de la carte"
+          }
+        },
+        "mobileMenu": {
+          "title": "Menu"
+        },
+        "content": {
+          "title": "Contenu",
+          "empty": "Il n’y a actuellement aucune entrée disponible.",
+          "search": {
+            "placeholder": "Rechercher des éléments"
+          },
+          "helpAction": {
+            "title": "Ouvrir l’aide"
+          },
+          "infoAction": {
+            "title": "Informations complémentaires"
+          },
+          "viewpointAction": {
+            "title": "Aller au point de vue"
+          },
+          "styleAction": {
+            "title": "Ouvrir le sélecteur de style"
+          },
+          "layerExtentAction": {
+            "name": "Zoom sur l’étendue",
+            "title": "Zoom sur l’étendue de la couche"
+          }
+        },
+        "navigation": {
+          "rotateButton": "Faire pivoter la vue",
+          "obliqueLeftTooltip": "Faire pivoter la vue vers la gauche",
+          "obliqueRightTooltip": "Faire pivoter la vue vers la droite",
+          "zoomInTooltip": "Zoom avant",
+          "zoomOutTooltip": "Zoom arrière",
+          "pitchTooltip": "Inclinaison de la caméra : {0}°",
+          "overviewMapTooltip": "Carte de situation",
+          "homeButton": "Retour à la vue d’accueil",
+          "compass": {
+            "alignEast": "Aligner à l’est",
+            "alignNorth": "Aligner au nord",
+            "alignSouth": "Aligner au sud",
+            "alignWest": "Aligner à l’ouest"
+          },
+          "locator": {
+            "errorAccess": "L’accès à votre position a été refusé",
+            "errorCurrentPosition": "Impossible de déterminer votre position actuelle",
+            "errorConnection": "Connexion perdue lors de la détermination de la position",
+            "errorPosition": "Impossible d’enregistrer votre position"
+          },
+          "obliqueFallback": {
+            "message": "Aucune donnée disponible pour la position et l’ensemble de données sélectionnés.",
+            "title": "Données manquantes"
+          }
+        },
+        "categoryManager": {
+          "title": "Mon espace de travail",
+          "tooltip": "Mon espace de travail"
+        },
+        "collectionManager": {
+          "more": "Afficher tout...",
+          "less": "Afficher moins...",
+          "empty": "Aucune entrée pour le moment."
+        },
+        "components": {
+          "pin": "Épingler la fenêtre",
+          "close": "Fermer la fenêtre",
+          "add": "Ajouter",
+          "apply": "Appliquer",
+          "cancel": "Annuler",
+          "import": {
+            "submit": "Importer",
+            "fileDrop": "Déposez les fichiers ici",
+            "failure": "Le fichier {fileName} n'a pas pu être analysé.",
+            "predicateFailure": "{0} entités ne remplissent pas les conditions requises.",
+            "addFailure": "{0} entités existent déjà.",
+            "featuresAdded": "{0} entités importées.",
+            "nothingAdded": "Aucune entité n'a pu être importée."
+          },
+          "vcsFormSection": {
+            "help": "Afficher le texte d'aide"
+          },
+          "vcsTable": {
+            "key": "Nom",
+            "value": "Valeur"
+          },
+          "vcsDataTable": {
+            "searchbarPlaceholder": "Nom, valeur, ...",
+            "itemsPerPage": "par page",
+            "ofItems": "sur",
+            "nextPage": "Page suivante",
+            "formerPage": "Page précédente",
+            "noDataPlaceholder": "Aucune donnée disponible",
+            "noResultsPlaceholder": "Aucun résultat trouvé"
+          },
+          "style": {
+            "fill": "Remplissage",
+            "stroke": "Contour",
+            "reset": "Réinitialiser",
+            "lineWidth": "Épaisseur de ligne",
+            "type": "Type",
+            "points": "Points",
+            "radius": "Rayon",
+            "radius2": "Rayon2",
+            "angle": "Angle",
+            "rotation": "Rotation",
+            "scale": "Échelle",
+            "opacity": "Opacité",
+            "image": "Symbole",
+            "icon": "Icône",
+            "shape": "Forme",
+            "presets": "Préréglages",
+            "circle": "Cercle",
+            "square": "Carré",
+            "rectangle": "Rectangle",
+            "triangle": "Triangle",
+            "star": "Étoile",
+            "cross": "Croix",
+            "x": "X",
+            "custom": "Personnalisé",
+            "bold": "Gras",
+            "italic": "Italique",
+            "text": "Texte",
+            "enterText": "Saisir le texte ici",
+            "offset": "Décalage"
+          },
+          "flight": {
+            "general": "Paramètres de vol",
+            "name": "Nom (ID)",
+            "titlePlaceholder": "Titre du vol",
+            "interpolation": "Interpolation",
+            "duration": "Durée totale du vol",
+            "spline": "Spline",
+            "linear": "Linéaire",
+            "loop": "Boucle",
+            "anchors": "Points d'ancrage du vol",
+            "hidePath": "Visualisation du trajet de vol",
+            "addAnchor": "Ajouter la vue actuelle comme nouveau point d'ancrage",
+            "removeAnchor": "Supprimer le point d'ancrage",
+            "editAnchor": "Modifier le point d'ancrage",
+            "zoomToAnchor": "Zoomer sur le point d'ancrage",
+            "noAnchor": "Aucun point d'ancrage de vol disponible pour le moment.",
+            "invalidDuration": "La durée totale du vol doit être supérieure à zéro !",
+            "zoom": "Zoomer sur l'étendue",
+            "export": "Exporter le vol",
+            "exportPath": "Exporter le trajet de vol"
+          },
+          "splashScreen": {
+            "name": "Écran d'accueil",
+            "checkBoxText": "Veuillez accepter les [Conditions](https://vc.systems/) pour continuer",
+            "buttonTitle": "Continuer",
+            "dontShowAgain": "Ne plus afficher ce message"
+          },
+          "customScreen": {
+            "name": "Écran personnalisé"
+          },
+          "viewpoint": {
+            "name": "Nom (ID)",
+            "title": "Titre",
+            "titlePlaceholder": "Titre du point de vue",
+            "groundPosition": "Position au sol",
+            "cameraPosition": "Position de la caméra",
+            "distance": "Distance",
+            "heading": "Azimut",
+            "pitch": "Inclinaison",
+            "roll": "Rotation",
+            "animate": "Animer",
+            "duration": "Durée de l'animation",
+            "general": "Paramètres généraux",
+            "positionAndOrientation": "Position & Orientation",
+            "updateFromView": "Appliquer la position actuelle de la carte",
+            "sync": "Activer la synchronisation de la caméra",
+            "syncOff": "Désactiver la synchronisation pour l'édition",
+            "finiteNumber": "Un nombre fini est requis !",
+            "positiveNumber": "Un nombre positif est requis !"
+          },
+          "coordinate": {
+            "outOfRange": "Valeur en dehors de la plage valide !"
+          },
+          "extent": {
+            "title": "Étendue",
+            "projection": "Projection",
+            "min": "Min",
+            "max": "Max",
+            "show": "Afficher l'étendue sur la carte",
+            "hide": "Masquer l'étendue sur la carte",
+            "create": "Dessiner une nouvelle étendue sur la carte",
+            "zoom": "Zoomer sur l'étendue",
+            "invalid": "Les coordonnées ne forment pas une étendue valide !",
+            "editVertices": "Modifier les coins de l'étendue",
+            "translate": "Déplacer l'étendue",
+            "toggle": "Basculer l'étendue"
+          },
+          "projection": {
+            "title": "Système de référence des coordonnées",
+            "epsg": "Code",
+            "proj4": "Proj4",
+            "proj4Tooltip": "Demander la définition EPSG au serveur",
+            "alias": "Alias",
+            "epsgIoRequestFailed": "La requête EPSG a échoué !",
+            "invalidEpsg": "Le code EPSG est invalide !",
+            "invalidProj4": "La chaîne Proj4 est invalide !"
+          },
+          "editor": {
+            "translate": "Déplacer les éléments",
+            "rotate": "Pivoter les éléments",
+            "scale": "Mettre à l'échelle les éléments",
+            "extrude": "Extruder les éléments",
+            "header": "Transformation",
+            "placeOnTerrain": "Placer sur le terrain",
+            "cw": "Pivoter de 90° dans le sens horaire",
+            "ccw": "Pivoter de 90° dans le sens anti-horaire",
+            "angle": "Angle",
+            "edit": "Modifier la géométrie",
+            "modifyHeader": "Modifier",
+            "modifyInfo": "Pour modifier l'élément sélectionné, cliquez sur l'une des icônes dans l'en-tête ci-dessus.",
+            "styleHeader": "Style",
+            "snapping": {
+              "title": "Aimantation",
+              "help": "L'aimantation peut être temporairement désactivée en maintenant la touche CTRL.",
+              "orthogonalTooltip": "Aimantation orthogonale aux bords horizontaux.",
+              "parallelTooltip": "Aimantation parallèle aux bords horizontaux.",
+              "vertexTooltip": "Aimantation aux sommets dessinés.",
+              "edgeTooltip": "Aimantation aux bords dessinés."
+            }
+          },
+          "vectorProperties": {
+            "header": "Propriétés vectorielles",
+            "altitudeMode": "Mode d'altitude",
+            "clampToGround": "Épouser toute surface",
+            "clampToTerrain": "Épouser uniquement le terrain",
+            "clampTo3DTiles": "Épouser uniquement les objets",
+            "absolute": "Absolu",
+            "relativeToGround": "Relatif à toute surface",
+            "relativeToTerrain": "Relatif uniquement au terrain",
+            "relativeTo3DTiles": "Relatif uniquement aux objets",
+            "groundLevel": "Niveau du sol",
+            "classificationType": "Classification",
+            "none": "Aucun",
+            "both": "Les deux",
+            "cesium3DTile": "3D Tiles",
+            "terrain": "Terrain",
+            "heightAboveGround": "Hauteur au-dessus du sol",
+            "allowPicking": "Autoriser la sélection",
+            "scaleByDistance": "Échelle en fonction de la distance",
+            "eyeOffset": "Décalage de la vue",
+            "storeys": "Étages",
+            "storeyHeights": "Hauteur(s) d'étage",
+            "aboveGround": "Au-dessus du sol",
+            "belowGround": "En-dessous du sol",
+            "modelUrl": "URL du modèle",
+            "modelHeading": "Orientation du modèle",
+            "modelPitch": "Inclinaison du modèle",
+            "modelRoll": "Rotation du modèle",
+            "modelAutoScale": "Échelle automatique du modèle",
+            "baseUrl": "URL de base",
+            "extrudedHeight": "Extrusion",
+            "skirt": "Jupes",
+            "modelScale": "Échelle du modèle",
+            "help": {
+              "clampToGround": "Épouser toute surface (terrain, maillage ou bâtiments)",
+              "clampToTerrain": "Épouser uniquement le terrain",
+              "clampTo3DTiles": "Épouser uniquement les objets (maillage ou bâtiments)",
+              "absolute": "Chaque sommet est dessiné à sa position 3D (non applicable aux éléments 2D)",
+              "relativeToGround": "Relatif à toute surface (terrain, maillage ou bâtiments)",
+              "relativeToTerrain": "Relatif uniquement au terrain",
+              "relativeTo3DTiles": "Relatif uniquement aux objets (maillage ou bâtiments)"
+            }
+          },
+          "validation": {
+            "allowedRange": "Plage de valeurs autorisées",
+            "notValid": "Entrée non valide",
+            "required": "Entrée requise"
+          },
+          "layerSwap": {
+            "deleteButton": "Supprimer la couche de la carte"
+          }
+        },
+        "settings": {
+          "title": "Paramètres",
+          "tooltip": "",
+          "languageSelector": "Langue",
+          "displayQuality": {
+            "title": "Paramètres d’affichage",
+            "level": {
+              "low": "Faible",
+              "medium": "Moyenne",
+              "high": "Élevée"
+            }
+          },
+          "theme": {
+            "title": "Thème de couleur",
+            "dark": "Sombre",
+            "light": "Clair"
+          }
+        },
+        "help": {
+          "title": "Aide",
+          "tooltip": ""
+        },
+        "featureInfo": {
+          "activateToolTitle": "Interroger des informations",
+          "deactivateToolTitle": "Interroger des informations",
+          "cluster": {
+            "headerTitle": "Informations groupées",
+            "expand": "Afficher la liste d'informations",
+            "collapse": "Réduire la liste d'informations",
+            "empty": "Aucune information disponible"
+          },
+          "deepPicking": {
+            "title": "Qu’y a-t-il ici ?",
+            "headerTitle": "Informations disponibles"
+          }
+        },
+        "legend": {
+          "title": "Légende",
+          "tooltip": "Légende",
+          "empty": "Aucune entrée de légende disponible pour le moment.",
+          "openInNew": "Ouvrir dans un nouvel onglet",
+          "defaultLabelText": "Texte"
+        },
+        "search": {
+          "title": "Recherche",
+          "tooltip": "Recherche",
+          "select": "Sélectionner le résultat",
+          "placeholder": "Rechercher une adresse ou un point d’intérêt",
+          "zoomToFeatureAction": "Zoomer sur le résultat",
+          "zoomToAllMobile": "Zoomer sur tout",
+          "zoomToAll": "Zoomer sur tout"
+        },
+        "toolbox": {
+          "title": "Boîte à outils",
+          "flight": "vol",
+          "miscellaneous": "divers"
+        },
+        "footer": {
+          "title": "Pied de page",
+          "attributions": {
+            "title": "Attributions",
+            "tooltip": "Afficher les attributions",
+            "empty": "Aucune attribution disponible pour le moment."
+          },
+          "imprint": {
+            "title": "Mentions légales",
+            "tooltip": ""
+          },
+          "dataProtection": {
+            "title": "Protection des données",
+            "tooltip": ""
+          },
+          "positionDisplay": {
+            "title": "Interroger les coordonnées de la carte",
+            "projection": "Sélectionner le système de coordonnées"
+          },
+          "oblique": {
+            "template": "Image oblique : {{ name }} - {{ viewDirection }}",
+            "north": "nord",
+            "east": "est",
+            "south": "sud",
+            "west": "ouest",
+            "nadir": "nadir"
+          },
+          "mobile": {
+            "rotationWarning": "Tournez votre appareil pour utiliser toutes les fonctionnalités"
+          }
+        },
+        "notification": {
+          "error": "Erreur",
+          "warning": "Avertissement",
+          "information": "Information",
+          "success": "Succès"
+        },
+        "datePicker": {
+          "today": "Aujourd’hui"
+        },
+        "list": {
+          "selectAll": "Tout sélectionner",
+          "clearSelection": "Effacer la sélection",
+          "renameItem": "Renommer l’élément",
+          "deleteItem": "Supprimer l’élément",
+          "editItem": "Modifier l’élément",
+          "import": "Importer",
+          "export": "Exporter la sélection",
+          "delete": "Supprimer la sélection",
+          "edit": "Modifier la sélection"
+        },
+        "flight": {
+          "title": "Créer un vol de caméra",
+          "titleTemporary": "Créer un vol de caméra temporaire",
+          "categoryTitle": "Vols de caméra",
+          "new": "Nouveau",
+          "player": "Lecteur",
+          "playTooltip": "Lire ce vol",
+          "pauseTooltip": "Mettre ce vol en pause à la position actuelle",
+          "stopTooltip": "Arrêter la lecture de ce vol",
+          "forwardFastTooltip": "Avancer rapidement",
+          "backwardFastTooltip": "Reculer rapidement",
+          "forwardStepTooltip": "Avancer d’une position",
+          "backwardStepTooltip": "Reculer d’une position"
+        },
+        "measurement": {
+          "header": {
+            "title": "Mesures"
+          },
+          "create": {
+            "new": "Nouvelle mesure",
+            "Position2D": "Point 2D",
+            "Position3D": "Point 3D",
+            "Distance2D": "Distance 2D",
+            "Distance3D": "Distance 3D",
+            "Area2D": "Surface 2D",
+            "Area3D": "Surface 3D",
+            "ObliqueHeight2D": "Hauteur 2D",
+            "Height3D": "Hauteur 3D",
+            "tooltip": {
+              "addToWorkspace": "Ajouter à Mon Espace de travail",
+              "Position2D": "Mesurer un point 2D",
+              "Position3D": "Mesurer un point 3D",
+              "Distance2D": "Mesurer une distance 2D",
+              "Distance3D": "Mesurer une distance 3D",
+              "Area2D": "Mesurer une surface 2D",
+              "Area3D": "Mesurer une surface 3D",
+              "ObliqueHeight2D": "Mesurer une hauteur 2D",
+              "Height3D": "Mesurer une hauteur 3D"
+            }
+          },
+          "value": {
+            "point": "Point",
+            "points": "Points de mesure",
+            "distance": "Distance",
+            "area": "Surface",
+            "circumference": "Circonférence",
+            "height": "Hauteur",
+            "groundPoint": "Point au sol",
+            "heightPoint": "Point de hauteur",
+            "horizontalDistance": "Distance horizontale",
+            "beta": "Bêta",
+            "alpha": "Alpha"
+          },
+          "edit": "Modifier la mesure",
+          "select": "Sélectionner des mesures",
+          "category": {
+            "title": "Mesures",
+            "selectAll": "Tout sélectionner",
+            "hideSelected": "Masquer les mesures",
+            "hideAll": "Tout masquer",
+            "showAll": "Tout afficher",
+            "zoomTo": "Zoomer sur",
+            "rename": "Renommer",
+            "edit": "Modifier",
+            "remove": "Supprimer",
+            "removeSelected": "Supprimer la sélection",
+            "exportSelected": "Exporter la sélection",
+            "import": "Importer"
+          },
+          "config": {
+            "title": "Éditeur de configuration des mesures",
+            "decimalPlaces": "Nombre de décimales",
+            "decimalPlacesZ": "Nombre de décimales altimétriques",
+            "decimalPlacesAngle": "Nombre de décimales pour les angles",
+            "disable": "Désactiver les mesures pour cette carte",
+            "enable": "Activer les mesures pour cette carte",
+            "errorInput": "La valeur doit être un nombre positif"
+          },
+          "hint": {
+            "oblique": {
+              "distance": "Veuillez noter que les mesures ne fournissent des résultats corrects que si elles sont effectuées sur le sol.",
+              "height": "Veuillez noter que les mesures ne fournissent des résultats corrects que si le point de départ est au sol. Comme cette mesure dépend du système de coordonnées local de l'image, elle ne peut pas être modifiée ni ajoutée à Mon Espace de travail."
+            }
+          }
+        },
+        "shadow": {
+          "title": "Simuler les ombres",
+          "date": "Date",
+          "time": "Heure",
+          "animateDay": "Animer l'ombre sur une journée",
+          "animateYear": "Animer l'ombre sur une année",
+          "pause": "Pause",
+          "speed": "Durée de l'animation",
+          "speedUnit": "Seconde(s)",
+          "speedTooltip": "Détermine la durée totale de l'animation en secondes pour une boucle journalière ou annuelle",
+          "length": "Longueur",
+          "for": "pour",
+          "hours": "heures",
+          "hoursFormat": "Heure de la journée (00 à 23)",
+          "minutesFormat": "Minutes de l'heure (00 à 59)",
+          "days": "jours",
+          "units": "unités"
+        },
+        "drawing": {
+          "create": {
+            "Point": "Dessiner des points",
+            "Polygon": "Dessiner des polygones",
+            "LineString": "Dessiner des lignes",
+            "BBox": "Dessiner une boîte englobante",
+            "Circle": "Dessiner des cercles"
+          },
+          "geometry": {
+            "edit": "Modifier la géométrie"
+          },
+          "transform": {
+            "translate": "Déplacer les éléments",
+            "rotate": "Pivoter les éléments",
+            "scale": "Mettre à l'échelle les éléments",
+            "extrude": "Extruder les éléments"
+          },
+          "select": "Sélectionner les objets dessinés",
+          "category": {
+            "shape": "Formes",
+            "hideAll": "Tout masquer",
+            "showAll": "Tout afficher",
+            "zoomTo": "Zoomer sur",
+            "edit": "Modifier la géométrie"
+          },
+          "contextMenu": {
+            "editProperties": "Modifier les propriétés",
+            "removeSelection": "Supprimer la sélection",
+            "exportSelection": "Exporter la sélection"
+          },
+          "config": {
+            "title": "Configuration du dessin",
+            "altitudeModes": "Modes d'altitude"
+          }
+        },
+        "walk": {
+          "headerTitle": "Mode piéton",
+          "viewingHeight": "Hauteur de vue",
+          "viewingAngle": "Angle de vue",
+          "stop": "Quitter",
+          "stopMode": "Quitter le mode piéton",
+          "start": "Démarrer le mode piéton",
+          "openSettings": "Paramètres du mode piéton",
+          "navigation": {
+            "move": "Utilisez les touches fléchées (ou alternativement \"W\"/\"A\"/\"S\"/\"D\") pour vous déplacer.",
+            "boost": "Maintenez la touche Maj gauche enfoncée pour augmenter la vitesse de marche.",
+            "look": "Faites glisser avec le bouton gauche de la souris pour pivoter la vue."
+          }
+        },
+        "viewshed": {
+          "distance": "Distance",
+          "fov": "Champ de vision",
+          "heading": "Orientation",
+          "pitch": "Inclinaison",
+          "position": "Position",
+          "showPrimitive": "Afficher le point de vue",
+          "viewpoint": "Point de vue",
+          "viewshedCategory": "Zones de visibilité",
+          "heightMode": "Mode de hauteur",
+          "relative": "Relatif au sol",
+          "absolute": "Absolu",
+          "new": "Nouveau",
+          "cancel": "Annuler",
+          "cone": "Analyse de zone de visibilité conique",
+          "360": "Analyse de zone de visibilité 360°",
+          "create": {
+            "cone": "Créer une analyse de zone de visibilité conique",
+            "360": "Créer une analyse de zone de visibilité 360°"
+          },
+          "addToMyWorkspace": "Ajouter à Mon Espace de Travail",
+          "temporary": "Temporaire",
+          "jumpToViewpoint": "Aller au point de vue",
+          "returnToViewpoint": "Retour au point de vue précédent",
+          "move": "Déplacer le point de vue",
+          "createDescription": "Cliquez deux fois sur la carte. Le premier clic place l'origine, le second définit la distance et la direction de la zone de visibilité.",
+          "createThreeSixtyDescription": "Cliquez deux fois sur la carte. Le premier clic place l'origine, le second définit la distance de la zone de visibilité.",
+          "remove": "Supprimer",
+          "editor": {
+            "title": "Éditeur de zones de visibilité",
+            "general": "Paramètres généraux",
+            "visibleColor": "Couleur visible",
+            "shadowColor": "Couleur d'ombre",
+            "tools": "Outils"
+          }
+        },
+        "clippingTool": {
+          "clippingPlanes": "Plans de découpe",
+          "clippingPlane": "Plan de découpe",
+          "temporary": "Temporaire",
+          "horizontal": "Horizontal",
+          "vertical": "Vertical",
+          "isInfinite": "Est infini",
+          "cutsGlobe": "Coupe le globe",
+          "isInverted": "Est inversé",
+          "showFeature": "Afficher l'élément",
+          "new": "Nouveau",
+          "addToMyWorkspace": "Ajouter à Mon Espace de Travail",
+          "create": "Créer un plan de découpe",
+          "createVertical": "Créer un plan de découpe vertical",
+          "createHorizontal": "Créer un plan de découpe horizontal",
+          "layerNames": "Couche",
+          "createDescription": "Définissez le squelette de découpe en cliquant sur la carte.",
+          "zoomTo": "Zoomer sur l'élément",
+          "export": "Exporter",
+          "delete": "Supprimer"
+        },
+        "transparentTerrain": {
+          "header": {
+            "title": "Terrain transparent"
+          },
+          "create": {
+            "new": "Nouveau",
+            "tooltip": {
+              "addToWorkspace": "Ajouter à Mon Espace de Travail",
+              "Box": "Créer une zone d'excavation du sol",
+              "Rectangle": "Créer un rectangle transparent",
+              "Global": "Créer un globe transparent"
+            },
+            "title": {
+              "Box": "Terrain en boîte temporaire",
+              "Rectangle": "Terrain rectangulaire temporaire",
+              "Global": "Terrain global temporaire"
+            }
+          },
+          "category": {
+            "zoomTo": "Zoomer sur l'étendue de l'élément"
+          },
+          "settings": {
+            "modify": "Modifier",
+            "geometry": "Géométrie",
+            "length": "Longueur",
+            "width": "Largeur",
+            "depth": "Profondeur",
+            "position": "Position",
+            "box": {
+              "edit": "Modifier la boîte",
+              "translate": "Déplacer la boîte",
+              "scale": "Redimensionner la boîte",
+              "showTexture": "Afficher la texture",
+              "hint": "Cliquez sur la boîte pour la relâcher et la déplacer."
+            },
+            "global": {
+              "camera": "Déplacer la caméra sous le terrain",
+              "opacity": "Opacité",
+              "nearFar": "Échelle Proche/Lointain",
+              "distanceOpacity": "Alpha, échelonné en fonction de la distance",
+              "near": "Proche",
+              "nearOpacity": "Opacité proche",
+              "far": "Lointain",
+              "farOpacity": "Opacité lointaine"
+            },
+            "rectangle": {
+              "extent": {
+                "remove": "Supprimer l'étendue"
+              },
+              "hint": "Cliquez sur la carte pour définir la position du rectangle. Déplacez la souris pour inspecter plus loin."
+            }
+          }
+        },
+        "multiView": {
+          "config": {
+            "title": "Configuration MultiView",
+            "activeOnStartup": "Activer la carte latérale au démarrage",
+            "allowedSideMaps": "Cartes latérales autorisées",
+            "startingSideMap": "Carte latérale affichée au démarrage",
+            "placeholder": "Sélectionner",
+            "obliqueCollectionName": "Nom de la collection d'imagerie oblique"
+          },
+          "title": "Afficher la carte latérale",
+          "north": "nord",
+          "east": "est",
+          "south": "sud",
+          "west": "ouest",
+          "sync": "Synchroniser les vues",
+          "switchMaps": "Échanger les vues",
+          "obliqueMultiView": "Vue multiple oblique"
+        },
+        "swipeTool": {
+          "title": "Comparer le contenu",
+          "hideController": "Masquer le contrôle",
+          "showController": "Afficher le contrôle",
+          "treeTitle": "G {'|'} D",
+          "emptyTree": "Activez l'outil de comparaison pour afficher les couches disponibles à diviser.",
+          "stateActionTitles": {
+            "inactiveLeft": "Afficher la couche côté gauche",
+            "inactiveRight": "Afficher la couche côté droit",
+            "activeLeft": "Masquer la couche côté gauche",
+            "activeRight": "Masquer la couche côté droit",
+            "indeterminateLeft": "Afficher toutes les couches côté gauche",
+            "indeterminateRight": "Afficher toutes les couches côté droit"
+          },
+          "swipeElementTitles": {
+            "left": "Gauche",
+            "right": "Droite"
+          },
+          "editor": {
+            "title": "Éditeur d'outil de comparaison",
+            "general": "Paramètres généraux",
+            "showSwipeTree": "Activer l'interface de l'outil de comparaison",
+            "showSwipeElement": "Afficher l'élément de comparaison",
+            "splitPosition": "Position initiale de division",
+            "splitPositionInvalid": "Entrée non valide : la valeur doit être comprise entre 0 et 1",
+            "swipeElementTitles": "Titres des éléments de comparaison",
+            "swipeLayer": {
+              "title": "Définir l'état initial des couches",
+              "name": "Sélectionner une couche",
+              "add": "Ajouter un état initial",
+              "remove": "Supprimer l'état initial",
+              "splitLeft": "Basculer la division à gauche",
+              "splitRight": "Basculer la division à droite"
+            }
+          }
+        },
+        "lineOfSight": {
+          "lineOfSight": "Créer une ligne de vue",
+          "linesOfSight": "Lignes de vue",
+          "create": "Créer une ligne de vue",
+          "temporary": "Ligne de vue temporaire",
+          "viewpoint": "Point de vue",
+          "target": "Cible",
+          "new": "Nouveau",
+          "addToMyWorkspace": "Ajouter à Mon Espace de Travail",
+          "jumpToViewpoint": "Aller au point de vue",
+          "returnToViewpoint": "Retour au point de vue précédent",
+          "cancel": "Annuler",
+          "absolute": "Absolu",
+          "offset": "Décalage",
+          "zoomTo": "Zoomer sur l'élément",
+          "createHelp": "Cliquez deux fois sur la carte : Le premier clic place l'origine (point de vue), le second clic définit la position cible qui détermine la direction de vue.",
+          "hasOffset": "Ajouter un décalage d'observateur",
+          "position": "Position",
+          "refresh": "Recalculer l'intersection"
+        },
+        "heightProfile": {
+          "toolbarTitle": "Créer un profil altimétrique",
+          "titleTemporary": "Profil altimétrique",
+          "distance": "Distance (m)",
+          "height": "Hauteur (m)",
+          "resolutionError": "La résolution doit être supérieure à 0",
+          "heightProfileCanceled": "Le calcul du profil altimétrique a été annulé !",
+          "tooltip": {
+            "resolution": "La résolution définit la distance entre les points d'échantillonnage du profil altimétrique. Plus la résolution est faible, plus le profil est détaillé."
+          },
+          "collection": {
+            "add": "Calculer un nouveau profil"
+          },
+          "edit": "Modifier la géométrie",
+          "title": "Profil altimétrique",
+          "create": "Profil altimétrique",
+          "diagram": "Profils calculés : Diagramme",
+          "classificationType": { 
+            "DGM": "MNT", 
+            "DOM": "MNS" 
+          },
+          "resolution": "Résolution [m]",
+          "results": "Démarrer le calcul",
+          "pointsMultiple": "Nom",
+          "points": "Points d'ancrage",
+          "point": "Point",
+          "settings": "Paramètres",
+          "classification": "Surface de référence",
+          "calcResults": "Profils calculés",
+          "resolutionProblem": "Pas assez de points d'échantillonnage ont pu être générés. Sélectionnez une résolution plus élevée ou une ligne de profil plus longue.",
+          "dialogText": "Le profil altimétrique est en cours de calcul",
+          "graphAction": "Afficher le graphique",
+          "measureLine": "Ligne de mesure",
+          "measurementWarning": "Une ligne de mesure ne peut être créée que si pas plus d'une ligne de hauteur est affichée dans le graphique.",
+          "editSessionWarning": "La modification ultérieure de la géométrie supprime tous les profils précédemment calculés.",
+          "initialMessage": "Cliquez sur la carte pour définir la ligne de votre profil. Double-cliquez sur un emplacement pour terminer votre ligne.",
+          "tempTitle": "Profil altimétrique temporaire",
+          "scaleFactor": "Facteur d'échelle",
+          "scaleFactorTooltip": "Le facteur d'échelle indique de combien les valeurs d'altitude sont mises à l'échelle par rapport aux distances horizontales dans un profil.",
+          "measurement": {
+            "start": "Commencer la mesure dans le graphique",
+            "clear": "Supprimer la mesure dans le graphique"
+          },
+          "reset": "Réinitialisation des ajustements du graphique",
+          "nn": "Basculer le mode Normal Null",
+          "layerWarning": "Configuration de couche modifiée. Le diagramme peut différer de l'affichage de la carte.",
+          "parameterComponent": "Calculer le profil",
+          "config": {
+            "title": "Configuration du profil altimétrique",
+            "decimalPlaces": "Nombre de décimales sur le graphique"
+          }
+        }
+      }
+    }
+  ]
+}
