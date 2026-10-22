@@ -42,6 +42,7 @@
     "!plugins/node_modules/"
   ],
   "dependencies": {
+    "@geoportallux/lux-3dviewer-plugin-statesync": "1.1.1",
     "@intlify/core-base": "^9.13.1",
     "@vcsuite/check": "^3.0.0",
     "@vcsuite/logger": "^1.0.1",
