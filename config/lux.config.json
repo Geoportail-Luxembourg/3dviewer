@@ -650,6 +650,11 @@
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-statesync/index.js"
     },
     {
+      "name": "@geoportallux/lux-3dviewer-plugin-feature-info",
+      "entry": "plugins/@geoportallux/lux-3dviewer-plugin-feature-info/index.js",
+      "credentials": "same-origin"
+    },
+    {
       "name": "@geoportallux/lux-3dviewer-themesync",
       "entry": "plugins/@geoportallux/lux-3dviewer-themesync/index.js",
       "luxThemesUrl": "https://map.geoportail.lu/themes?limit=30&partitionlimit=5&interface=main&background=background",
