@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="vcs-ui" lang="en">
+  <head>
+    <title>Geoportal 3D Luxembourg</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1">
+    <link class="vcs-favicon" rel="icon" type="image/ico" href="./assets/favicon.ico">
+    
+    <style>
+      #loading-wrapper {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+
+      #loading-text {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: grey;
+        width: 100px;
+        height: 30px;
+        margin: -7px 0 0 -45px;
+        text-align: center;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+      }
+
+      #loading-content {
+        display: block;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        width: 170px;
+        height: 170px;
+        margin: -85px 0 0 -85px;
+      }
+
+      #loading-content {
+        border: 3px solid transparent;
+        border-top-color: grey;
+        border-bottom-color: grey;
+        border-radius: 50%;
+        -webkit-animation: loader 2s linear infinite;
+        -moz-animation: loader 2s linear infinite;
+        -o-animation: loader 2s linear infinite;
+        animation: loader 2s linear infinite;
+      }
+
+      @keyframes loader {
+        0% {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body style="height: 100vh; margin: 0;">
+    <noscript>
+      <strong>...</strong>
+    </noscript>
+    <div id="app">
+      <div id="loading-wrapper">
+        <div id="loading-text">LOADING</div>
+        <div id="loading-content"></div>
+      </div>
+    </div>
+    <script src="./assets/start.js" type="module"></script>
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+
+    (function() {
+      var u="//statistics.geoportail.lu/";
+
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '82']);
+
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+    <!-- End Matomo Code -->
+
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "EN translations",
+  "i18n": [
+    {
+      "name": "EN base",
+      "en": {}
+    }
+  ]
+}
