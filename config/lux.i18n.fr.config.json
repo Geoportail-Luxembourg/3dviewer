@@ -5,6 +5,20 @@
     {
       "name": "FR base",
       "fr": {
+        "lux3dviewerPluginGoto": {
+          "3D Print": "Impression 3D",
+          "Lidar": "LiDAR",
+          "ACT2BIM": "ACT2BIM",
+          "Minecraft": "Minecraft",
+          "Lien vers Cyclomédia": "Cyclomedia",
+          "Ouvrir streetView": "Street View",
+          "Generic export": "Generic export",
+          "Generate a 3D printable model": "Générer un modèle imprimable en 3D",
+          "Explore point cloud data": "Explorer les nuages de points",
+          "Export 3D Model into BIM formats": "Exporter le modèle 3D en formats BIM",
+          "Export 3D Model to Minecraft": "Exporter le modèle 3D vers Minecraft",
+          "Open Street View": "Ouvrir Street View"
+        },
         "navbar": {
           "maps": {
             "CesiumMap": "Carte 3D",
@@ -754,9 +768,9 @@
           "title": "Profil altimétrique",
           "create": "Profil altimétrique",
           "diagram": "Profils calculés : Diagramme",
-          "classificationType": { 
-            "DGM": "MNT", 
-            "DOM": "MNS" 
+          "classificationType": {
+            "DGM": "MNT",
+            "DOM": "MNS"
           },
           "resolution": "Résolution [m]",
           "results": "Démarrer le calcul",
