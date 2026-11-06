@@ -5,6 +5,18 @@
     {
       "name": "DE base",
       "de": {
+        "3D Print": "3D Druck",
+        "Lidar": "LiDAR",
+        "ACT2BIM": "ACT2BIM",
+        "Minecraft": "Minecraft",
+        "Lien vers Cyclomédia": "Cyclomedia",
+        "Ouvrir streetView": "Street View",
+        "Generic export": "Generic export",
+        "Generate a 3D printable model": "Ein 3D-druckbares Modell erstellen",
+        "Explore point cloud data": "Punktwolken erkunden",
+        "Export 3D Model into BIM formats": "3D Modell in BIM Formate konvertieren",
+        "Export 3D Model to Minecraft": "3D Modell für Minecraft konvertieren",
+        "Open Street View": "Street View öffnen",
         "multiView": {
           "config": {
             "title": "MultiView Konfiguration",
