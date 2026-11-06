@@ -5,18 +5,20 @@
     {
       "name": "EN base",
       "en": {
-        "3D Print": "3D Print",
-        "Lidar": "LiDAR",
-        "ACT2BIM": "ACT2BIM",
-        "Minecraft": "Minecraft",
-        "Lien vers Cyclomédia": "Cyclomedia",
-        "Ouvrir streetView": "Street View",
-        "Generic export": "Generic export",
-        "Generate a 3D printable model": "Generate a 3D printable model",
-        "Explore point cloud data": "Explore point cloud data",
-        "Export 3D Model into BIM formats": "Export 3D Model into BIM formats",
-        "Export 3D Model to Minecraft": "Export 3D Model to Minecraft",
-        "Open Street View": "Open Street View"
+        "lux3dviewerPluginGoto": {
+          "3D Print": "3D Print",
+          "Lidar": "LiDAR",
+          "ACT2BIM": "ACT2BIM",
+          "Minecraft": "Minecraft",
+          "Lien vers Cyclomédia": "Cyclomedia",
+          "Ouvrir streetView": "Street View",
+          "Generic export": "Generic export",
+          "Generate a 3D printable model": "Generate a 3D printable model",
+          "Explore point cloud data": "Explore point cloud data",
+          "Export 3D Model into BIM formats": "Export 3D Model into BIM formats",
+          "Export 3D Model to Minecraft": "Export 3D Model to Minecraft",
+          "Open Street View": "Open Street View"
+        }
       }
     }
   ]
