@@ -1,0 +1,15 @@
+{
+  "name": "@vcmap-show-case/project-selector",
+  "entry": "plugins/@vcmap-show-case/project-selector/index.js",
+  "selected": "VC Map Base",
+  "selectedModules": [],
+  "open": false,
+  "projects": [
+    {
+      "name": "VC Map Base",
+      "description": "Base Layout with basic datasets",
+      "modules": ["config/base.config.json"]
+    }
+  ],
+  "modules": []
+}

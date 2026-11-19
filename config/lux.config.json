@@ -1,0 +1,897 @@
+{
+  "name": "LuxConfig",
+  "mapcontainer": "vcs_map_container",
+  "_id": "LuxConfig",
+  "startingViewpointName": "luxembourg",
+  "startingMapName": "cesium",
+  "startingObliqueCollectionName": "ACT2023_ImagesObliques_all",
+  "projection": {
+    "epsg": "2169",
+    "proj4": "+proj=tmerc +lat_0=49.83333333333334 +lon_0=6.166666666666667 +k=1 +x_0=80000 +y_0=100000 +ellps=intl +towgs84=-189.681,18.3463,-42.7695,-0.33746,-3.09264,2.53861,0.4598 +units=m +no_defs"
+  },
+  "uiConfig": [
+    {
+      "name": "imprint",
+      "value": {
+        "url": "https://www.geoportail.lu/fr/propos/"
+      }
+    },
+    {
+      "name": "logo",
+      "value": "data:image/png;base64,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"
+    },
+    {
+      "name": "displayQuality",
+      "value": {
+        "startingQualityLevel": "medium",
+        "low": {
+          "sse": 4,
+          "fxaa": false,
+          "fogEnabled": true,
+          "resolutionScale": 0.9,
+          "layerSSEFactor": 2
+        },
+        "medium": {
+          "sse": 2,
+          "fxaa": false,
+          "fogEnabled": true,
+          "resolutionScale": 1,
+          "layerSSEFactor": 1
+        },
+        "high": {
+          "sse": 1.3333333333333333,
+          "fxaa": true,
+          "fogEnabled": true,
+          "fogDensity": 0,
+          "fogScreenSpaceErrorFactor": 0,
+          "resolutionScale": 1,
+          "layerSSEFactor": 0.5
+        }
+      }
+    }
+  ],
+  "styles": [
+    {
+      "name": "lineColor",
+      "type": "DeclarativeStyleItem",
+      "declarativeStyle": {
+        "show": "true",
+        "color": {
+          "conditions": [
+            ["${olcs_geometryType} === 2", "color('#49eb34')"],
+            ["true", "color('#707070')"]
+          ]
+        }
+      }
+    },
+    {
+      "name": "MeasuredHeightGreen",
+      "type": "DeclarativeStyleItem",
+      "title": "Measured Height (green)",
+      "declarativeStyle": {
+        "show": "true",
+        "color": {
+          "conditions": [
+            ["${attributes.measuredHeight} === undefined", "color('#006d2c')"],
+            ["${attributes.measuredHeight} < 5", "color('#edf8e9')"],
+            ["${attributes.measuredHeight} < 5", "color('#edf8e9')"],
+            ["${attributes.measuredHeight} < 15", "color('#bae4b3')"],
+            ["${attributes.measuredHeight} < 30", "color('#74c476')"],
+            ["${attributes.measuredHeight} < 65", "color('#31a354')"],
+            ["true", "color('#006d2c')"]
+          ]
+        }
+      },
+      "properties": {
+        "legend": [
+          {
+            "type": "StyleLegendItem",
+            "colNr": 1,
+            "rows": [
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#edf8e9"
+                },
+                "title": "< 5 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#bae4b3"
+                },
+                "title": "< 15 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#74c476"
+                },
+                "title": "< 30 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#31a354"
+                },
+                "title": "< 65 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#006d2c"
+                },
+                "title": "> 65 m"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MeasuredHeightBrown",
+      "type": "DeclarativeStyleItem",
+      "title": "Measured Height (brown)",
+      "declarativeStyle": {
+        "show": "true",
+        "color": {
+          "conditions": [
+            ["${attributes.measuredHeight} === undefined", "color('#993404')"],
+            ["${attributes.measuredHeight} < 5", "color('#ffffd4')"],
+            ["${attributes.measuredHeight} < 15", "color('#fed98e')"],
+            ["${attributes.measuredHeight} < 30", "color('#fe9929')"],
+            ["${attributes.measuredHeight} < 65", "color('#d95f0e')"],
+            ["true", "color('#993404')"]
+          ]
+        }
+      },
+      "properties": {
+        "legend": [
+          {
+            "type": "StyleLegendItem",
+            "colNr": 1,
+            "rows": [
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#ffffd4"
+                },
+                "title": "< 5 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#fed98e"
+                },
+                "title": "< 15 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#fe9929"
+                },
+                "title": "< 30 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#d95f0e"
+                },
+                "title": "< 65 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#993404"
+                },
+                "title": "> 65 m"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MeasuredHeightBlue",
+      "type": "DeclarativeStyleItem",
+      "title": "Measured Height (blue)",
+      "declarativeStyle": {
+        "show": "true",
+        "color": {
+          "conditions": [
+            ["${attributes.measuredHeight} === undefined", "color('#045a8d')"],
+            ["${attributes.measuredHeight} < 5", "color('#f1eef6')"],
+            ["${attributes.measuredHeight} < 15", "color('#bdc9e1')"],
+            ["${attributes.measuredHeight} < 30", "color('#74a9cf')"],
+            ["${attributes.measuredHeight} < 65", "color('#2b8cbe')"],
+            ["true", "color('#045a8d')"]
+          ]
+        }
+      },
+      "properties": {
+        "legend": [
+          {
+            "type": "StyleLegendItem",
+            "colNr": 1,
+            "rows": [
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#f1eef6"
+                },
+                "title": "< 5 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#bdc9e1"
+                },
+                "title": "< 15 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#74a9cf"
+                },
+                "title": "< 30 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#2b8cbe"
+                },
+                "title": "< 65 m"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#045a8d"
+                },
+                "title": "> 65 m"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "DeclarativeStyleItem",
+      "title": "Classified by Roof Type",
+      "declarativeStyle": {
+        "show": "true",
+        "color": {
+          "conditions": [
+            ["${attributes.roofType} === undefined", "color('#cccccc')"],
+            ["${attributes.roofType} === '1000' ", "color('#91cf60')"],
+            ["${attributes.roofType} === '2100' ", "color('#fee08b')"],
+            ["${attributes.roofType} === '2200' ", "color('#8dd3c7')"],
+            ["${attributes.roofType} === '3100' ", "color('#8dd3c7')"],
+            ["${attributes.roofType} === '3200' ", "color('#fc8d59')"],
+            ["${attributes.roofType} === '3300' ", "color('#ffffb3')"],
+            ["${attributes.roofType} === '3400' ", "color('#bebada')"],
+            ["${attributes.roofType} === '3500' ", "color('#ffffbf')"],
+            ["${attributes.roofType} === '3600' ", "color('#fdb462')"],
+            ["${attributes.roofType} === '3700' ", "color('#b3de69')"],
+            ["${attributes.roofType} === '3800' ", "color('#ecc34e')"],
+            ["${attributes.roofType} === '3900' ", "color('#fccde5')"],
+            ["${attributes.roofType} === '4000' ", "color('#d590b3')"],
+            ["${attributes.roofType} === '5000' ", "color('#888888')"],
+            ["${attributes.roofType} === '9999' ", "color('#cccccc')"],
+            ["true", "color('#cccccc')"]
+          ]
+        }
+      },
+      "properties": {
+        "legend": [
+          {
+            "type": "StyleLegendItem",
+            "rows": [
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#91cf60"
+                },
+                "title": "Flachdach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#fee08b"
+                },
+                "title": "Pultdach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#8dd3c7"
+                },
+                "title": "Versetztes Pultdach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#8dd3c7"
+                },
+                "title": "Satteldach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#fc8d59"
+                },
+                "title": "Walmdach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#ffffb3"
+                },
+                "title": "Krüppelwalmdach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#bebada"
+                },
+                "title": "Mansardendach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#ffffbf"
+                },
+                "title": "Zeltdach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#fdb462"
+                },
+                "title": "Kegeldach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#b3de69"
+                },
+                "title": "Kuppeldach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#ecc34e"
+                },
+                "title": "Sheddach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#fccde5"
+                },
+                "title": "Bogendach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#d590b3"
+                },
+                "title": "Turmdach"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#888888"
+                },
+                "title": "Mischform"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#cccccc"
+                },
+                "title": "Sonstiges"
+              }
+            ]
+          }
+        ]
+      },
+      "name": "ClassifiedbyRoofType"
+    },
+    {
+      "type": "DeclarativeStyleItem",
+      "title": "Einfärbung nach Gebäudefunktion",
+      "declarativeStyle": {
+        "show": "true",
+        "color": {
+          "conditions": [
+            ["${attributes.function} === undefined", "color('#d9d9d9')"],
+            ["${attributes.function} === '1121' ", "color('#7fc97f')"],
+            ["${attributes.function} === '1004' ", "color('#beaed4')"],
+            ["${attributes.function} === '1799' ", "color('#fdc086')"],
+            ["${attributes.function} === '1231' ", "color('#ffff99')"],
+            ["true", "color('#d9d9d9')"]
+          ]
+        }
+      },
+      "properties": {
+        "title": "style.buildingFunction",
+        "legend": [
+          {
+            "type": "StyleLegendItem",
+            "rows": [
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#7fc97f"
+                },
+                "title": "1121"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#fdb462"
+                },
+                "title": "1004"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#fdc086"
+                },
+                "title": "1799"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#ffff99"
+                },
+                "title": "1231"
+              },
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#cccccc"
+                },
+                "title": "other function"
+              }
+            ]
+          }
+        ]
+      },
+      "name": "BuildingFunction"
+    },
+    {
+      "type": "DeclarativeStyleItem",
+      "name": "Transparentbuildings",
+      "title": "Transparent buildings",
+      "declarativeStyle": {
+        "show": "true",
+        "color": {
+          "conditions": [["true", "color('#cccccc', 0.7)"]]
+        }
+      },
+      "properties": {
+        "title": "style.transparentBuildings",
+        "legend": [
+          {
+            "type": "StyleLegendItem",
+            "rows": [
+              {
+                "type": "FillLegendRow",
+                "fill": {
+                  "color": "#cccccc"
+                },
+                "title": "Transparent buildings"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "featureInfo": [
+    {
+      "type": "TableFeatureInfoView",
+      "name": "tableAllWithTemplateHeader",
+      "keyMapping": {
+        "roofType": "codeLists.keys.roofType",
+        "function": "codeLists.keys.function",
+        "featureId": "Feature ID"
+      },
+      "valueMapping": {
+        "roofType": "codeLists.values.roofType.${value}",
+        "function": {
+          "1000": "codeLists.values.function.1000",
+          "1111": "myOwnMapping1111"
+        }
+      },
+      "window": {
+        "state": {
+          "headerTitle": ["{{layer}}", ": ", "{{osm_id}}"]
+        }
+      }
+    },
+    {
+      "type": "TableFeatureInfoView",
+      "name": "tableAll",
+      "keyMapping": {
+        "roofType": "codeLists.keys.roofType",
+        "function": "codeLists.keys.function"
+      },
+      "valueMapping": {
+        "roofType": "codeLists.values.roofType.${value}",
+        "function": {
+          "1000": "codeLists.values.function.1000",
+          "1111": "myOwnMapping1111"
+        }
+      },
+      "window": {
+        "state": {
+          "headerTitle": ["{{layerName}}", ": ", "{{gml:name}}"]
+        }
+      }
+    },
+    {
+      "type": "TableFeatureInfoView",
+      "name": "filteredTable",
+      "attributeKeys": ["gml:name", "function"],
+      "keyMapping": {
+        "function": "codeLists.keys.function"
+      },
+      "valueMapping": {
+        "function": "codeLists.values.function.${value}"
+      }
+    },
+    {
+      "type": "AddressBalloonFeatureInfoView",
+      "name": "addressBalloon",
+      "balloonSubtitle": "",
+      "addressName": "name"
+    }
+  ],
+  "maps": [
+    {
+      "type": "CesiumMap",
+      "name": "cesium",
+      "debugging": false,
+      "fxaa": false,
+      "enableLightning": true,
+      "allowSoftwareRendering": false,
+      "maximumScreenSpaceError": 2,
+      "fogEnabled": true,
+      "fogEnabledMobile": true,
+      "fogDensity": 0.0002,
+      "fogDensityMobile": 0.0004,
+      "fogScreenSpaceError": 2,
+      "fogScreenSpaceErrorMobile": 4,
+      "useOriginalCesiumShader": false
+    },
+    {
+      "name": "Oblique Map",
+      "showObliqueImageName": true,
+      "obliqueImageNameTemplate": "Oblique Image Name : {0}",
+      "type": "ObliqueMap",
+      "maintainViewpointOnCollectionChange": true,
+      "fallbackToCurrentMap": true,
+      "switchThreshold": "0.3"
+    }
+  ],
+  "layers": [
+    {
+      "type": "WMTSLayer",
+      "name": "basemap_2015_global",
+      "activeOnStartup": true,
+      "format": "image/png",
+      "properties": {
+        "title": "layers.basemap_2015_global.title",
+        "showInOverviewMap": true,
+        "attributions": {
+          "provider": "MapTiler - OpenStreetMap contributors for data outside of Luxembourg",
+          "year": "2015"
+        }
+      },
+      "allowPicking": false,
+      "url": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts/roadmap/GLOBAL_WEBMERCATOR/{TileMatrix}/{TileCol}/{TileRow}.png",
+      "extent": {
+        "coordinates": [-180, -85, 180, 85],
+        "projection": {
+          "epsg": "EPSG:4326"
+        }
+      },
+      "zIndex": 0
+    },
+    {
+      "type": "WMTSLayer",
+      "name": "topo_bw_jpeg",
+      "activeOnStartup": false,
+      "format": "image/jpeg",
+      "properties": {
+        "title": "layers.topo_bw_jpeg.title",
+        "showInOverviewMap": true,
+        "attributions": {
+          "provider": "MapTiler - OpenStreetMap contributors for data outside of Luxembourg"
+        },
+        "legend": [
+          {
+            "type": "IframeLegendItem",
+            "src": "https://map.geoportail.lu/legends/get_html?lang=fr&name=act_topovt_bw&id=502"
+          }
+        ]
+      },
+      "allowPicking": false,
+      "url": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts/topomap_gray/GLOBAL_WEBMERCATOR/{TileMatrix}/{TileCol}/{TileRow}.png",
+      "extent": {
+        "coordinates": [-180, -85, 180, 85],
+        "projection": {
+          "epsg": "EPSG:4326"
+        }
+      },
+      "zIndex": 0
+    },
+    {
+      "type": "WMTSLayer",
+      "name": "topogr_global",
+      "activeOnStartup": false,
+      "format": "image/png",
+      "properties": {
+        "title": "layers.topogr_global.title",
+        "showInOverviewMap": true,
+        "attributions": {
+          "provider": "MapTiler - OpenStreetMap contributors for data outside of Luxembourg"
+        },
+        "legend": [
+          {
+            "type": "IframeLegendItem",
+            "src": "https://map.geoportail.lu/legends/get_html?lang=fr&name=act_topovt&id=529"
+          }
+        ]
+      },
+      "allowPicking": false,
+      "url": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts/topomap/GLOBAL_WEBMERCATOR/{TileMatrix}/{TileCol}/{TileRow}.png",
+      "extent": {
+        "coordinates": [-180, -85, 180, 85],
+        "projection": {
+          "epsg": "EPSG:4326"
+        }
+      },
+      "zIndex": 0
+    },
+    {
+      "type": "WMTSLayer",
+      "name": "orthogr_2013_global",
+      "activeOnStartup": false,
+      "format": "image/jpeg",
+      "properties": {
+        "title": "layers.orthogr_2013_global.title",
+        "showInOverviewMap": true,
+        "attributions": {
+          "provider": "MapTiler - OpenStreetMap contributors for data outside of Luxembourg"
+        }
+      },
+      "allowPicking": false,
+      "url": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts/orthogr_2013_global/GLOBAL_WEBMERCATOR_4_V3/{TileMatrix}/{TileCol}/{TileRow}.jpeg",
+      "extent": {
+        "coordinates": [-180, -85, 180, 85],
+        "projection": {
+          "epsg": "EPSG:4326"
+        }
+      },
+      "zIndex": 0
+    },
+    {
+      "type": "WMTSLayer",
+      "name": "streets_jpeg",
+      "activeOnStartup": false,
+      "format": "image/png",
+      "properties": {
+        "title": "layers.streets_jpeg.title",
+        "showInOverviewMap": true,
+        "attributions": {
+          "provider": "MapTiler - OpenStreetMap contributors for data outside of Luxembourg"
+        },
+        "legend": [
+          {
+            "type": "IframeLegendItem",
+            "src": "https://map.geoportail.lu/legends/get_html?lang=en&name=act%3Aroadmap_vt&id=556"
+          }
+        ]
+      },
+      "tilingSchema": "mercator",
+      "allowPicking": false,
+      "url": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts/streets_jpeg/GLOBAL_WEBMERCATOR_4_V3/{TileMatrix}/{TileCol}/{TileRow}.png",
+      "extent": {
+        "coordinates": [-180, -85, 180, 85],
+        "projection": {
+          "epsg": "EPSG:4326"
+        }
+      },
+      "zIndex": 0
+    },
+    {
+      "type": "CesiumTilesetLayer",
+      "name": "mesh_2020",
+      "url": "https://acts3.geoportail.lu/3d-data/3d-tiles/mesh3D/mesh3D_2020_v2/Cesium/pyramid/",
+      "activeOnStartup": false,
+      "allowPicking": false,
+      "screenSpaceError": 16,
+      "screenSpaceErrorMobile": 32,
+      "tilesetOptions": {
+        "skipLevelOfDetail": true,
+        "enableCollision": true
+      }
+    },
+    {
+      "type": "CesiumTilesetLayer",
+      "name": "mesh_2019",
+      "url": "https://3dtiles.geoportail.lu/3dtiles/wintermesh/tileset.json",
+      "activeOnStartup": false,
+      "allowPicking": false,
+      "screenSpaceError": 16,
+      "screenSpaceErrorMobile": 32,
+      "tilesetOptions": {
+        "skipLevelOfDetail": true,
+        "enableCollision": true
+      }
+    }
+  ],
+  "viewpoints": [
+    {
+      "name": "luxembourg",
+      "cameraPosition": [6.131935, 49.611622, 180000],
+      "groundPosition": [6, 49, 300],
+      "distance": 1980.8215342887953,
+      "heading": 0,
+      "pitch": -85,
+      "roll": 360,
+      "animate": false,
+      "type": "Viewpoint",
+      "properties": {
+        "title": "Luxembourg"
+      }
+    }
+  ],
+  "contentTree": [
+    {
+      "name": "baseMap",
+      "type": "NodeContentTreeItem",
+      "icon": "$vcsGround",
+      "title": "layers.basemap.title",
+      "tooltip": "Select base map"
+    },
+    {
+      "name": "baseMap.Openstreetmap OSM Cache",
+      "type": "LayerContentTreeItem",
+      "layerName": "Openstreetmap OSM Cache"
+    },
+    {
+      "name": "baseMap.basemap_2015_global",
+      "type": "LayerContentTreeItem",
+      "layerName": "basemap_2015_global",
+      "title": "layers.basemap_2015_global.title"
+    },
+    {
+      "name": "baseMap.topo_bw_jpeg",
+      "type": "LayerContentTreeItem",
+      "layerName": "topo_bw_jpeg",
+      "title": "layers.topo_bw_jpeg.title"
+    },
+    {
+      "name": "baseMap.topogr_global",
+      "type": "LayerContentTreeItem",
+      "layerName": "topogr_global",
+      "title": "layers.topogr_global.title"
+    },
+    {
+      "name": "baseMap.orthogr_2013_global",
+      "type": "LayerContentTreeItem",
+      "layerName": "orthogr_2013_global",
+      "title": "layers.orthogr_2013_global.title"
+    },
+    {
+      "name": "baseMap.streets_jpeg",
+      "type": "LayerContentTreeItem",
+      "layerName": "streets_jpeg",
+      "title": "layers.streets_jpeg.title"
+    },
+    {
+      "name": "mesh",
+      "type": "NodeContentTreeItem",
+      "title": "layers.mesh.title",
+      "tooltip": "Select mesh layer"
+    },
+    {
+      "name": "mesh.mesh2020",
+      "layerName": "mesh_2020",
+      "type": "LayerContentTreeItem",
+      "title": "layers.mesh_2020.title",
+      "tooltip": "layers.mesh_2020.title"
+    },
+    {
+      "name": "mesh.mesh2019",
+      "layerName": "mesh_2019",
+      "type": "LayerContentTreeItem",
+      "title": "layers.mesh_2019.title",
+      "tooltip": "layers.mesh_2019.title"
+    }
+  ],
+  "obliqueCollections": [
+    {
+      "datasourceId": "MhKZrKhBLkwWEB6XY",
+      "name": "ACT2023_ImagesObliques_all",
+      "activeOnStartup": false,
+      "dataSets": [
+        {
+          "url": "https://acts3.geoportail.lu/3d-data/imagesObliquesVCS/act2023/image.json",
+          "projection": {
+            "epsg": "2169",
+            "proj4": "+proj=tmerc +lat_0=49.8333333333333 +lon_0=6.16666666666667 +k=1 +x_0=80000 +y_0=100000 +ellps=intl +towgs84=-265.8867,76.9851,20.2667,0.33746,3.09264,-2.53861,0.4598 +units=m +no_defs +type=crs"
+          },
+          "terrainProvider": {
+            "url": "https://acts3.geoportail.lu/3d-data/3d-tiles/ACT2024_LiDAR_Terrain/"
+          }
+        }
+      ],
+      "maxZoom": null,
+      "minZoom": null,
+      "hideLevels": "0"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "@vcmap/multi-view",
+      "entry": "plugins/@vcmap/multi-view/index.js"
+    },
+    {
+      "name": "@vcmap/walk",
+      "entry": "plugins/@vcmap/walk/index.js"
+    },
+    {
+      "name": "@vcmap/print",
+      "entry": "plugins/@vcmap/print/index.js"
+    },
+    {
+      "name": "@vcmap/transparent-terrain",
+      "entry": "plugins/@vcmap/transparent-terrain/index.js"
+    },
+    {
+      "name": "@vcmap/clipping-tool",
+      "entry": "plugins/@vcmap/clipping-tool/index.js"
+    },
+    {
+      "name": "@vcmap/create-link",
+      "entry": "plugins/@vcmap/create-link/index.js"
+    },
+    {
+      "name": "@vcmap/shadow",
+      "entry": "plugins/@vcmap/shadow/index.js"
+    },
+    {
+      "name": "@vcmap/draw",
+      "entry": "plugins/@vcmap/draw/index.js"
+    },
+    {
+      "name": "@vcmap/measurement",
+      "entry": "plugins/@vcmap/measurement/index.js"
+    },
+    {
+      "name": "@vcmap/viewshed",
+      "entry": "plugins/@vcmap/viewshed/index.js"
+    },
+    {
+      "name": "@geoportallux/lux-3dviewer-themesync",
+      "entry": "plugins/@geoportallux/lux-3dviewer-themesync/index.js",
+      "luxThemesUrl": "https://migration.geoportail.lu/themes?limit=30&partitionlimit=5&interface=main&cache_version=0&background=background",
+      "luxI18nUrl": "https://map.geoportail.lu/static/0",
+      "luxOwsUrl": "https://wmsproxy.geoportail.lu/ogcproxywms",
+      "luxWmtsUrl": "https://wmts3.geoportail.lu/mapproxy_4_v3/wmts",
+      "lux3dUrl": "https://acts3.geoportail.lu/3d-data/3d-tiles",
+      "luxLegendUrl": "https://map.geoportail.lu/legends/get_html"
+    },
+    {
+      "name": "@geoportallux/lux-3dviewer-plugin-back-to-2d-portal",
+      "entry": "plugins/@geoportallux/lux-3dviewer-plugin-back-to-2d-portal/index.js",
+      "pathTo2dGeoportal": "https://map.geoportail.lu/theme/main",
+      "tabId": "lux2d"
+    }
+  ]
+}
