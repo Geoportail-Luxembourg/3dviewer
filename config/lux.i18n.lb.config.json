@@ -5,6 +5,20 @@
     {
       "name": "LB base",
       "lb": {
+        "lux3dviewerPluginGoto": {
+          "3D Print": "3D Print",
+          "Lidar": "LiDAR",
+          "ACT2BIM": "ACT2BIM",
+          "Minecraft": "Minecraft",
+          "Lien vers Cyclomédia": "Cyclomedia",
+          "Ouvrir streetView": "Street View",
+          "Generic export": "Generic export",
+          "Generate a 3D printable model": "En 3D-dréckbare Modell erstellen",
+          "Explore point cloud data": "Punktwolleken ukucken",
+          "Export 3D Model into BIM formats": "3D Modell an BIM Formater ëmwandelen",
+          "Export 3D Model to Minecraft": "3D Modell a Minecraft konvertieren",
+          "Open Street View": "Street View opmaachen"
+        },
         "navbar": {
           "maps": {
             "CesiumMap": "3D-Kaart",
@@ -754,9 +768,9 @@
           "title": "Héichteprofil",
           "create": "Héichteprofil",
           "diagram": "Berechnete Profiler: Diagramm",
-          "classificationType": { 
-            "DGM": "DTM", 
-            "DOM": "DSM" 
+          "classificationType": {
+            "DGM": "DTM",
+            "DOM": "DSM"
           },
           "resolution": "Resolutioun [m]",
           "results": "Berechnung starten",
