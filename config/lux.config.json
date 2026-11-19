@@ -652,7 +652,7 @@
     {
       "name": "@geoportallux/lux-3dviewer-plugin-feature-info",
       "entry": "plugins/@geoportallux/lux-3dviewer-plugin-feature-info/index.js",
-      "credentials": "include",
+      "credentials": "same-origin",
       "luxGetInfoUrl": "https://map.geoportail.lu/getfeatureinfo",
       "luxLocalesUrl": "https://map.geoportail.lu/assets/locales",
       "templatesConfig": {
