@@ -655,9 +655,7 @@
       "credentials": "same-origin",
       "luxGetInfoUrl": "https://map.geoportail.lu/getfeatureinfo",
       "luxLocalesUrl": "https://map.geoportail.lu/assets/locales",
-      "templatesConfig": {
-        "geoportalUrl": "https://map.geoportail.lu/"
-      }
+      "geoportalUrl": "https://map.geoportail.lu/"
     },
     {
       "name": "@geoportallux/lux-3dviewer-themesync",
